@@ -1,0 +1,141 @@
+﻿.rank-container {
+    max-width: 960px;
+    margin: 40px auto;
+    font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
+    color: #333;
+}
+
+/* 상단 챌린지 배너 */
+.challenge-banner {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #f0fff4; /* 연한 민트색 배경 */
+    padding: 30px 40px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.banner-icon {
+    flex-shrink: 0;
+    background-color: #ffffff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.banner-content h1 {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+}
+
+.banner-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px 0;
+}
+
+.banner-content li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.challenge-button {
+    background-color: #4CAF50; /* 녹색 버튼 */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+    .challenge-button:hover {
+        background-color: #45a049;
+    }
+
+/* 업적 섹션 */
+.achievements-section h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.achievement-card {
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 16px;
+    padding: 25px;
+    text-align: left; /* 텍스트 왼쪽 정렬 */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+    .achievement-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    }
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.card-icon {
+    font-size: 20px;
+}
+
+.card-header h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.card-progress-text {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+/* 프로그레스 바 스타일링 */
+.card-progress-bar {
+    width: 100%;
+    height: 8px;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+    .card-progress-bar::-webkit-progress-bar {
+        background-color: #e9ecef;
+        border-radius: 4px;
+    }
+
+    .card-progress-bar::-webkit-progress-value {
+        background-color: #4CAF50;
+        border-radius: 4px;
+    }
+
+.card-description {
+    margin: 15px 0 0 0;
+    font-size: 14px;
+    color: #888;
+}

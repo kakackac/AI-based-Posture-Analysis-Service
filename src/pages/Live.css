@@ -1,0 +1,37 @@
+﻿.live-container {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
+}
+
+    .live-container h1 {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+
+.placeholder-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; 
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+
+.placeholder-text {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+}
+
+.page-description {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #888;
+}

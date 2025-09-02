@@ -1,0 +1,108 @@
+﻿.chatbot-container {
+    max-width: 700px;
+    height: 80vh;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.message-list {
+    flex-grow: 1; 
+    padding: 20px;
+    overflow-y: auto; 
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.message {
+    max-width: 75%;
+    padding: 12px 18px;
+    border-radius: 20px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+    .message.user {
+        align-self: flex-end;
+        background-color: #007bff;
+        color: white;
+        border-bottom-right-radius: 4px;
+    }
+
+    .message.bot {
+        align-self: flex-start; 
+        background-color: #e9ecef;
+        color: #333;
+        border-bottom-left-radius: 4px;
+    }
+
+
+.typing-indicator span {
+    height: 8px;
+    width: 8px;
+    background-color: #aaa;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 2px;
+    animation: bounce 1.2s infinite;
+}
+
+    .typing-indicator span:nth-of-type(2) {
+        animation-delay: 0.2s;
+    }
+
+    .typing-indicator span:nth-of-type(3) {
+        animation-delay: 0.4s;
+    }
+
+@keyframes bounce {
+    0%, 60%, 100% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(-5px);
+    }
+}
+
+.message-form {
+    display: flex;
+    padding: 15px;
+    border-top: 1px solid #e9ecef;
+    background-color: #f8f9fa;
+}
+
+    .message-form input {
+        flex-grow: 1;
+        border: 1px solid #dee2e6;
+        border-radius: 50px;
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+        .message-form input:focus {
+            outline: none;
+            border-color: #007bff;
+            box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+        }
+
+    .message-form button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        padding: 10px 25px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+        .message-form button:hover {
+            background-color: #0056b3;
+        }
