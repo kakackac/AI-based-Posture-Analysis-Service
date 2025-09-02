@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.93cd7372.css",
+    "main.js": "/static/js/main.64e566c9.js",
+    "static/media/guide-side-sitting.png": "/static/media/guide-side-sitting.d9d9050af1ce1b94f372.png",
+    "static/media/guide-front-standing.png": "/static/media/guide-front-standing.bae548b716cf05a801ae.png",
+    "static/media/guide-side-standing.png": "/static/media/guide-side-standing.90e927f46cc8d66920cd.png",
+    "static/media/1.png": "/static/media/1.22a85a404b3444766b37.png",
+    "static/media/guide-front-sitting.png": "/static/media/guide-front-sitting.22a85a404b3444766b37.png",
+    "static/media/2.png": "/static/media/2.d02a227f51b920dd5e76.png",
+    "static/media/image1.png": "/static/media/image1.05a169c7af62ab26aa4a.png",
+    "static/media/realtime.png": "/static/media/realtime.89bdd5b1d880f04c560d.png",
+    "static/media/photo.png": "/static/media/photo.e9f9400c1ab16d16b94e.png",
+    "static/media/report.png": "/static/media/report.1c6c41053774ab1c4c40.png",
+    "index.html": "/index.html",
+    "main.93cd7372.css.map": "/static/css/main.93cd7372.css.map",
+    "main.64e566c9.js.map": "/static/js/main.64e566c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93cd7372.css",
+    "static/js/main.64e566c9.js"
+  ]
+}
